@@ -175,6 +175,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\FarmaciaDb.mdf" />
+    <Content Include="App_Data\FarmaciaDb_log.ldf">
+      <DependentUpon>FarmaciaDb.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-lumen.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -228,7 +232,6 @@
     <Content Include="Views\Clientes\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
     <Folder Include="Views\TipoUsuarios\" />
   </ItemGroup>
   <ItemGroup>
