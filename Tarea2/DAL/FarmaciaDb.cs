@@ -15,5 +15,7 @@ namespace Tarea2.DAL
 
         public virtual DbSet<Models.Usuarios> Usuario { get; set; }
         public virtual DbSet<Models.TipoUsuarios> Tipo { get; set; }
+        public virtual DbSet<Models.Clientes> Cliente { get; set; }
+
     }
 }
